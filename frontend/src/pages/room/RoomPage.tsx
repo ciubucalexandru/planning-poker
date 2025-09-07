@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Grid, GridItem } from "@chakra-ui/react";
-import AppHeader from "../../components/AppHeader.tsx/AppHeader";
+import AppHeader from "../../components/AppHeader/AppHeader";
 import { useParams } from "react-router";
 import TasksList from "../../components/TasksList/TasksList";
 import { useRooms } from "../../services/useRooms";
